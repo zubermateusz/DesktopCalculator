@@ -8,6 +8,7 @@ class Publication {
 
     public final String getInfo() {
         // write your code here
+        return getType() + ";" + getDetails();
     }
 
     public String getType() {
@@ -30,6 +31,7 @@ class Newspaper extends Publication {
     }
 
     // write your code here
+
 
 }
 
