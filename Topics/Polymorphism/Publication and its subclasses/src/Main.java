@@ -73,4 +73,12 @@ class Announcement extends Publication {
 
     // write your code here
 
+    public String getType() {
+        return "Announcement";
+    }
+
+    public String getDetails() {
+        return " (days to expire - " + this.daysToExpire + ")";
+    }
+
 }
