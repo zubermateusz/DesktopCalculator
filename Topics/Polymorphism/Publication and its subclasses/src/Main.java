@@ -8,7 +8,7 @@ class Publication {
 
     public final String getInfo() {
         // write your code here
-        return getType() + ";" + getDetails();
+        return this.getType() + this.getDetails() + ": " + this.title;
     }
 
     public String getType() {
@@ -32,6 +32,13 @@ class Newspaper extends Publication {
 
     // write your code here
 
+    public String getType() {
+        return "Newspaper";
+    }
+
+    public String getDetails() {
+        return " (" + this.source + ")";
+    }
 
 }
 
