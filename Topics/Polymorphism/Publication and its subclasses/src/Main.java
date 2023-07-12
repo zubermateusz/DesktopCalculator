@@ -37,7 +37,7 @@ class Newspaper extends Publication {
     }
 
     public String getDetails() {
-        return " (author - " + this.source + ")";
+        return " (source - " + this.source + ")";
     }
 
 }
