@@ -53,6 +53,13 @@ class Article extends Publication {
 
     // write your code here
 
+    public String getType() {
+        return "Article";
+    }
+
+    public String getDetails() {
+        return " (author - " + this.author + ")";
+    }
 }
 
 class Announcement extends Publication {
